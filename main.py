@@ -13,11 +13,13 @@ print("You're a nerd if you got 8 - 10 points")
 print("___________________________________________________________")
 print("When answering a question try to use one concise word or the letter infront of your answer. \n")
  
-while True:
+while True: #Question one
+
+#This is where the user will be answered a question and where they will be putting an input, it will be stored in the variable 'question one'
 
   question_one = input(". Who was the first king of Israel? \n (a) Saul\n (b) God\n (c) Me\n (d) David  \n>>")
-  correct_q1 = ["a","saul"]
-  incorrect_q1 = ["b","god","me", "c", "d", "david"]
+  correct_q1 = ["a","saul"]#This is the correct answer
+  incorrect_q1 = ["b","god","me", "c", "d", "david"]#These are the incorrect answers
   if question_one.lower() in correct_q1:
     print("===========================================================")
     print("Correeeeeeecccccccccct.")
@@ -33,11 +35,14 @@ while True:
     print("Please remember to use the letters or one word for your answer. (TLDR: you didn't give an eligble answer)")
   print("===========================================================")
 
-while True:
+
+while True:#Question two
+
+  #This is where the user will be answered a question and where they will be putting an input, it will be stored in the variable 'question one'
 
   question_one = input(". What was Elijah? \n (a) A Leader\n (b) A king\n (c) A prophet\n (d) Your dad  \n>>")
-  correct_q1 = ["c","prophet", "a prophet"]
-  incorrect_q1 = ["a","leader", "a leader" "king", "a king" "b", "d", "dad", "your dad"]
+  correct_q1 = ["c","prophet", "a prophet"]#This is the correct answer
+  incorrect_q1 = ["a","leader", "a leader" "king", "a king" "b", "d", "dad", "your dad"]#These are the incorrect answers
   if question_one.lower() in correct_q1:
     print("===========================================================")
     print("some people would have actually gotten that wrong.")
@@ -53,11 +58,13 @@ while True:
     print("Please remember to use the letters or one word for your answer. (TLDR: you didn't give an eligble answer)")
   print("===========================================================")
 
-while True:
+while True:#Question three
+
+#This is where the user will be answered a question and where they will be putting an input, it will be stored in the variable 'question one'
 
   question_one = input(". How many people did Jesus feed in one go? \n (a) 21\n (b) 5,000\n (c) 420\n (d) 119  \n>>")
-  correct_q1 = ["b","5000", "5,000"]
-  incorrect_q1 = ["a","21","420", "c", "420", "d", "119"]
+  correct_q1 = ["b","5000", "5,000"]#This is the correct answer
+  incorrect_q1 = ["a","21","420", "c", "420", "d", "119"]#These are the incorrect answers
   if question_one.lower() in correct_q1:
     print("===========================================================")
     print("Good work.")
@@ -73,11 +80,13 @@ while True:
     print("Please remember to use the letters or one word for your answer. (TLDR: you didn't give an eligble answer)")
   print("===========================================================")
 
-while True:
+while True:#Question four
+
+#This is where the user will be answered a question and where they will be putting an input, it will be stored in the variable 'question one'
 
   question_one = input(". In creation, what came first? Heaven or the animals? \n (a) Heaven\n (b) The animals\n (c) Queen Elizabeth II\n (d) deez.  \n>>")
-  correct_q1 = ["a","heaven"]
-  incorrect_q1 = ["b","the animals", "animals", "queen elizabeth", "queen", "elizabeth", "c", "d", "deez"]
+  correct_q1 = ["a","heaven"]#This is the correct answer
+  incorrect_q1 = ["b","the animals", "animals", "queen elizabeth", "queen", "elizabeth", "c", "d", "deez"]#These are the incorrect answers
   if question_one.lower() in correct_q1:
     print("===========================================================")
     print("If you got that wrong then we would have a problem. Good thing you didn't")
@@ -93,11 +102,13 @@ while True:
     print("Please remember to use the letters or one word for your answer. (TLDR: you didn't give an eligble answer)")
   print("===========================================================")
 
-while True:
+while True:#Question five
+
+#This is where the user will be answered a question and where they will be putting an input, it will be stored in the variable 'question one'
 
   question_one = input(". Who was the cousin of Jesus? \n (a) The father\n (b) The son\n (c) The holy spirit\n (d) James.  \n>>")
-  correct_q1 = ["d","james"]
-  incorrect_q1 = ["a","the father", "father" "the son", "son", "the holy spirit", "spirit", "holy", "c", "b"]
+  correct_q1 = ["d","james"]#This is the correct answer
+  incorrect_q1 = ["a","the father", "father" "the son", "son", "the holy spirit", "spirit", "holy", "c", "b"]#These are the incorrect answers
   if question_one.lower() in correct_q1:
     print("===========================================================")
     print("Good work on avoiding the trick")
@@ -113,11 +124,13 @@ while True:
     print("Please remember to use the letters or one word for your answer. (TLDR: you didn't give an eligble answer)")
   print("===========================================================")
 
-while True:
+while True:#Question six
+
+  #This is where the user will be answered a question and where they will be putting an input, it will be stored in the variable 'question one'
 
   question_one = input(". Who or what did Moses lead? \n (a) pack of wolves\n (b) Israelites\n (c) clouds\n (d) Sheep.  \n>>")
-  correct_q1 = ["Israelites","b"]
-  incorrect_q1 = ["a","pack", "wolves", "pack of wolves", "clouds" "sheep", "c", "b"]
+  correct_q1 = ["Israelites","b"]#This is the correct answer
+  incorrect_q1 = ["a","pack", "wolves", "pack of wolves", "clouds" "sheep", "c", "b"]#These are the incorrect answers
   if question_one.lower() in correct_q1:
     print("===========================================================")
     print("That is correct, nice")
@@ -133,11 +146,13 @@ while True:
     print("Please remember to use the letters or one word for your answer. (TLDR: you didn't give an eligble answer)")
   print("===========================================================")
 
-while True:
+while True:#Question seven
+
+  #This is where the user will be answered a question and where they will be putting an input, it will be stored in the variable 'question one'
 
   question_one = input(". Was peter a tax collector? \n (a) yes\n (b) no\n (c) maybe\n (d) no clue.  \n>>")
-  correct_q1 = ["yes","a", "true"]
-  incorrect_q1 = ["c","maybe", "no clue", "b", "d", "no"]
+  correct_q1 = ["yes","a", "true"]#This is the correct answer
+  incorrect_q1 = ["c","maybe", "no clue", "b", "d", "no"]#These are the incorrect answers
   if question_one.lower() in correct_q1:
     print("===========================================================")
     print("Very nice, round of applause for you, ok no more clapping, hurry up and move on to the next question")
@@ -152,11 +167,14 @@ while True:
   else:
     print("Please remember to use the letters or one word for your answer. (TLDR: you didn't give an eligble answer)")
   print("===========================================================")
-while True:
+
+while True:#Question eight
+
+  #This is where the user will be answered a question and where they will be putting an input, it will be stored in the variable 'question one'
 
   question_one = input(". Who was the waifu of Abraham/Abram? \n (a) Bathsheeba\n (b) Naomi\n (c) Sarah/Sarai\n (d) Nico Robin.  \n>>")
-  correct_q1 = ["c","sarah", "sarai", "sarah/sarai"]
-  incorrect_q1 = ["a","bathsheeba", "nico robin", "d", "b", "naomi"]
+  correct_q1 = ["c","sarah", "sarai", "sarah/sarai"]#This is the correct answer
+  incorrect_q1 = ["a","bathsheeba", "nico robin", "d", "b", "naomi"]#These are the incorrect answers
   if question_one.lower() in correct_q1:
     print("===========================================================")
     print("Pretty easy question but a point is a point notheless.")
@@ -171,11 +189,14 @@ while True:
   else:
     print("Please remember to use the letters or one word for your answer. (TLDR: you didn't give an eligble answer)")
   print("===========================================================")
-while True:
+
+while True:#Question nine
+
+  #This is where the user will be answered a question and where they will be putting an input, it will be stored in the variable 'question one'
 
   question_one = input(". Ok this one is very easy. Was David a shepherd or a king? \n (a) no\n (b) Shepherd\n (c) king\n (d) both.  \n>>")
-  correct_q1 = ["d","both",]
-  incorrect_q1 = ["a","no", "shepherd", "king", "b", "c "]
+  correct_q1 = ["d","both",]#This is the correct answer
+  incorrect_q1 = ["a","no", "shepherd", "king", "b", "c "]#These are the incorrect answers
   if question_one.lower() in correct_q1:
     print("===========================================================")
     print("Phew I would have gone brain dead if you got that wrong, I mean you have to be pretty brain dead to get that wrong.")
@@ -190,11 +211,14 @@ while True:
   else:
     print("Please remember to use the letters or one word for your answer. (TLDR: you didn't give an eligble answer)")
   print("===========================================================")
-while True:
+
+while True:#Question ten
+
+  #This is where the user will be answered a question and where they will be putting an input, it will be stored in the variable 'question one'
 
   question_one = input(". Alright, this is the final question. Who was the wisest man in the bible? \n (a) me\n (b) you\n (c) Solomon\n (d) Salmon.  \n>>")
-  correct_q1 = ["Solomon","c",]
-  incorrect_q1 = ["a","me", "you", "salmon", "b", "d"]
+  correct_q1 = ["Solomon","c",]#This is the correct answer
+  incorrect_q1 = ["a","me", "you", "salmon", "b", "d"]#These are the incorrect answers
   if question_one.lower() in correct_q1:
     print("===========================================================")
     print("Looks like you are not .")
